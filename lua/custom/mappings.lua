@@ -10,7 +10,7 @@ vim.keymap.set('n', '<leader>rf', builtin.oldfiles, { desc = '[R]ecent [F]iles' 
 vim.keymap.set('n', '<leader>sp', builtin.lsp_document_symbols, { desc = '[S]tructure [P]opup' })
 
 -- toggleterm
-vim.keymap.set('n', '<leader>tt', ':ToggetTerm<CR>', { desc = ' [T]oggle [T]erminal ' })
+vim.keymap.set('n', '<leader>tt', ':ToggleTerm<CR>', { desc = ' [T]oggle [T]erminal ' })
 
 vim.keymap.set('n', '<leader>rc', function()
   vim.lsp.buf.format { async = true }
